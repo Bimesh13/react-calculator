@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import Calculator from "./components/Calculator";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello</p>
-      </header>
+    <div>
+      <Calculator />
     </div>
   );
 }
